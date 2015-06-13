@@ -7,6 +7,9 @@
   <version>1.0-SNAPSHOT</version>
   <name>bank-app</name>
   <url>http://maven.apache.org</url>
+  <properties>
+	myurl=url_is_A
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -49,7 +52,7 @@
 						</goals>
 						<configuration>
 							<tasks>
-								<echo>in test phase</echo>
+								<echo>in test phase ${url}</echo>
 							</tasks>
 						</configuration>
 					</execution>
