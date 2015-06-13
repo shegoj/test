@@ -8,7 +8,7 @@
   <name>bank-app</name>
   <url>http://maven.apache.org</url>
   <properties>
-	myurl=url_is_A
+	<myurl>url_is_A</myurl>
   </properties>
   <dependencies>
     <dependency>
