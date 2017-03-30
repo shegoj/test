@@ -1,7 +1,5 @@
 pipeline {
     agent any
-
-    ANCH_NAME}
         stage('Build') {
             steps {
                 echo 'Building..'
@@ -13,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                echo " '$env.BRANCH_NAME' the branch"
+                echo " '${env.BRANCH_NAME}' the branch"
             }
         }
         stage('Deploy') {
